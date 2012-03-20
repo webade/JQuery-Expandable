@@ -1,6 +1,18 @@
 JQuery Expandable
 =================
 
-This plugin will crop a block of text and add a link to show/hide the rest of the content.
+This plugin will crop a paragraph of text and add a link to show/hide the rest of the content.
 
-Project in progress....
+Usage:
+
+$('#element').expandable({
+	moreText: 'more text' //The value for the more text link
+	lessText: 'less text' //The value for the less text link
+	words: 40 //The number of words to crop the text by
+ });
+
+ TODO
+ ====
+
+
+Make it work for a div container with multiple paragraphs, and not just a single paragraph.
